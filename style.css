@@ -18,6 +18,7 @@ body {
 
 nav {
   background-color: #3a3a3a;
+  border: solid #3a3a3a 1px;
 }
 
 ul {
@@ -78,6 +79,31 @@ hr {
   margin: 0 2%;
 }
 
+form {
+  border-top: solid #3a3a3a 2px;
+  margin: auto 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 form h2 {
-  margin: 0;
+  margin: 0.7rem 0 1.5rem 0.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 85%;
+  margin-bottom: 1rem;
+  border: solid #3a3a3a 2px;
+}
+
+form textarea {
+  height: 5rem;
+}
+
+form input:nth-child(4) {
+  border: solid #ebebeb 1px;
 }
